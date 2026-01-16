@@ -1,10 +1,8 @@
 # NTIRE-2026-3D-Content-Super-Resolution-Challenge
 
-
 **The 3D Content Super-Resolution (SR) challenge is held as a part of the NTIRE workshop in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts.**
 
 ## Introduction
-
 
 Beyond traditional images and videos, 3D content has gained immense popularity to provide both appearance and geometry information of the scene. Recent years have witnessed an exponential surge of 3D contents due to advances in 3D generation and reconstruction. Nevertheless, current 3D generation models still suffer relatively low quality. For 3D reconstruction, due to diverse constraints in the real world, the observed multi-view images are usually of low resolution, which ultimately degrades the quality of reconstructed 3D content. In applications like AR/VR, increasing the resolution of these 3D contents is highly demanded to provide immersive experience and help to parse the real world.
 
@@ -14,21 +12,19 @@ In this challenge, we aim at establishing a benchmark for 3D content SR. We aspi
 
 ## Challenge Description
 
-
-The 8th edition of NTIRE: New Trends in Image Restoration and Enhancement workshop will be held in June 2026 in conjunction with CVPR 2026.
+The [ 8th edition of NTIRE: New Trends in Image Restoration and Enhancement workshop](https://www.cvlai.net/ntire/2026/) will be held in June 2026 in conjunction with CVPR 2026.
 
 The objective of this challenge is to reconstruct high-resolution (HR) 3D contents from their low-resolution (LR) counterparts. During the development phase, the validation set will be released. The participants can evaluate their models on the validation set by submitting their results to the validation server. Specifically, super-resolved images are rendered using given camera intrinsics and extrinsics and then submitted to the server for online evaluation. During the test phase, the test set will be released, which includes LR 3D content only. Challenge participants should apply their trained models to the LR 3D content to generate super-resolved results. Then, these results are submitted to the server and evaluated by the organizers.
 
 This challenge has two tracks:
 
-**- Track 1: Bicubic Degradation**   
+**- [Track 1: Bicubic Degradation](https://www.codabench.org/competitions/12695)**   
   The aim of this track is to obtain super-resolved 3D content under bicubic degradation (Matlab `imresize` function in bicubic mode).
 
-**- Track 2: Realistic Degradation**    
+**- [Track 2: Realistic Degradation](https://www.codabench.org/competitions/12699)**    
   The aim of this track is to obtain super-resolved 3D content under realistic degradation.
 
 ## Datasets
-
 
 ### Track 1: Bicubic Degradation
 
@@ -54,7 +50,6 @@ To rank the submitted models, a test set consisting of two 3D scenes is provided
 
 ## Evaluation
 
-
 The objective of this challenge is to reconstruct high-resolution (HR) 3D contents from their low-resolution (LR) counterparts. During the development and testing phase, challenge participants will submit the super-resolved results. Example codes to calculate evaluation metrics can be found [here](https://drive.google.com/file/d/1cYcP898xBpNWR-bGKKyFECymZkieN11a/view?usp=drive_link).
 
   **- Track 1: Bicubic Degradation**
@@ -69,7 +64,6 @@ For quantitative evaluation, we select M camera poses for each test 3D content t
 </div>
 
 ## Submission
-
 
 During the development phase, participants can submit their results on the validation set to get feedback from the Codabench server. During the test phase, participants will submit the whole results of the test set. This should match the last submission to Codabench.
 
@@ -91,11 +85,8 @@ Each participating team in the final testing phase should use the provided facts
 Please use the following format to submit your final results, fact sheet, code, and model (with trained parameters). We will run the test code to reproduce the results. The code and the model will be posted on the NTIRE 2026 website.
 
 To: ntire.3dsr@outlook.com;
-
 CC: your_team_members
-
-Title: [NTIRE 2026 3D Content Super-Resolution Challenge (Track *)] - [Team_name]
-
+Title: [NTIRE 2026 3D Content Super-Resolution Challenge (Track *)] - [Team_name]  
 body should include:
 
   1. The challenge name (including track id)
@@ -111,7 +102,6 @@ It should be noted that the top ranking participants should publicly release the
 
 ## Important Dates
 
-
 - 2026-01-15: Release of training and validation data;
 - 2026-01-30: Validation server online;
 - 2026-03-10: Final test data release, validation server closed;
@@ -125,11 +115,9 @@ It should be noted that the top ranking participants should publicly release the
   
 ## Group number policy
 
-
 Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each participant can only join one group. Each group can only submit one algorithm for final ranking.
 
 ## Organizers
-
 
 - Longguang Wang (wanglongguang15@nudt.edu.cn)  
 - Yulan Guo (yulan.guo@nudt.edu.cn)  
@@ -141,10 +129,9 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 
 ## NTIRE 2026 Terms and Conditions
 
-
 The terms and conditions of this challenge can be viewed [here](https://www.codabench.org/competitions/12695/?secret_key=84291672-bbd8-4b1b-8c23-0964a92f96ae).
 
 ## Official Repository
 
-NTIRE 2026: 3D Content Super-Resolution Challenge
+[NTIRE 2026: 3D Content Super-Resolution Challenge](https://github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/tree/NTIRE2023)
 
