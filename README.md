@@ -55,6 +55,61 @@ To rank the submitted models, a test set consisting of two 3D scenes is provided
 
 ---
 
+## Evaluation
+
+The objective of this challenge is to reconstruct high-resolution (HR) 3D contents from their low-resolution (LR) counterparts. During the development and testing phase, challenge participants will submit the super-resolved results. Example codes to calculate evaluation metrics can be found here.
+
+- Track 1: Bicubic Degradation  
+  Given multi-view images of a scene, bicubic degradation (Matlab `imresize` function in bicubic mode) is used to generate LR images.
+
+- Track 2: Realistic Degradation  
+  Given multi-view images of a scene, a realistic degradation model consisting of random blur, downsampling, noise, and compression is adopted to synthesize LR images.
+
+For quantitative evaluation, we select M camera poses for each test 3D content to render M images and corresponding depth maps. Then, PSNR is used to evaluate the visual quality, while EPE is employed to assess geometry accuracy. The final score for ranking is calculated as:
+<img width="2343" height="660" alt="image" src="https://github.com/user-attachments/assets/8ae7da97-a497-44af-b98b-40dc9f6c1e79" />
+
+
+---
+
+## Submission
+
+During the development phase, participants can submit their results on the validation set to get feedback from the Codabench server. During the test phase, participants will submit the whole results of the test set. This should match the last submission to Codabench.
+
+The submitted results should contain images and depth maps rendered from the super-resolved 3D content under given camera intrinsics and extrinsics. The terminology of the rendered images and depth maps should be identical to that of the camera intrinsics and extrinsics in the validation and test sets.
+
+When submitting the results, create a ZIP archive containing all the resulting images and depth maps. A valid example dummy submission file can be found here.
+
+After the test phase, the participants will 1) fill in an online form and 2) submit a zip file (containing fact sheet, source code, and final results, an example of fact sheet can be found here) to the official submission account (ntire.3dsr@outlook.com) by email. The final submission should be made by the following rules:
+
+  (1) The submitted results must be from the same method that generated the last submission to Codabench. Consistency will be checked; otherwise, the submission is invalid.  
+  
+  (2) Both testing source code (or executable) and training code must be submitted. Reproducibility is required.  
+  
+  (3) Fact sheet describing the method details should be submitted together. The factsheet format is provided with data. Participants must submit a compiled PDF file and the TeX source. Figures and image sources should be enclosed.  
+
+Each participating team in the final testing phase should use the provided factsheet template to describe their solution(s).
+
+**Email submission format:**  
+Please use the following format to submit your final results, fact sheet, code, and model (with trained parameters). We will run the test code to reproduce the results. The code and the model will be posted on the NTIRE 2026 website.
+
+To: ntire.3dsr@outlook.com
+CC: your_team_members
+Title: [NTIRE 2026 3D Content Super-Resolution Challenge (Track *)] - [Team_name]
+body should include:
+
+  1. The challenge name (including track id)
+  2. Team name
+  3. Team leader's name, affiliation, and email address
+  4. Team members' names, affiliations, and email addresses
+  5. User name on the NTIRE 2026 Codabench leaderboard (if any)
+  6. Executable/source code attached or download links
+  7. Fact sheet attached
+  8. Download link to the results
+
+It should be noted that the top ranking participants should publicly release their code (or executables) under a license of their choice, taken among popular OSI-approved licenses ([http://opensource.org/licenses](http://opensource.org/licenses)), and make their code (or executables) online accessible for not less than one year following the end of the challenge. (Applies only for the top three ranked participants of the competition.)
+
+---
+
 ## Important Dates
 
 - 2026-01-15: Release of training and validation data;
