@@ -1,23 +1,19 @@
 # NTIRE-2026-3D-Content-Super-Resolution-Challenge
 
-**The NTIRE 2026: 3D Content Super-Resolution Challenge is held as a part of the NTIRE workshop in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts. We are the organizers of this challenge.**
-
 ---
 
 ## Important Dates
 
-| Date | Event |
-|------|-------|
-| 2026-01-15 | Release of training and validation data |
-| 2026-01-30 | Validation server online |
-| 2026-03-10 | Final test data release, validation server closed |
-| 2026-03-17 | Test result submission deadline |
-| 2026-03-18 | Fact sheet / code / model submission deadline |
-| 2026-03-19 | Test preliminary score release to participants |
-| 2026-03-24 | Challenge paper submission deadline |
-| 2026-03-31 | Paper decision notification |
-| 2026-04-10 | Camera-ready |
-| 2026-06-18 | Workshop day (TBU) |
+- 2026-01-15: Release of training and validation data
+- 2026-01-30: Validation server online
+- 2026-03-10: Final test data release, validation server closed
+- 2026-03-17: Test result submission deadline
+- 2026-03-18: Fact sheet / code / model submission deadline
+- 2026-03-19: Test preliminary score release to participants
+- 2026-03-24: Challenge paper submission deadline
+- 2026-03-31: Paper decision notification
+- 2026-04-10: Camera-ready
+- 2026-06-18: Workshop day (TBU)
 
 ---
 
@@ -43,10 +39,11 @@ The objective of this challenge is to reconstruct high-resolution (HR) 3D conten
 
 ## Tracks
 
-| Track | Description |
-|-------|------------|
-| Track 1: Bicubic Degradation | The aim of this track is to obtain super-resolved 3D content under bicubic degradation (Matlab `imresize` function in bicubic mode) |
-| Track 2: Realistic Degradation | The aim of this track is to obtain super-resolved 3D content under realistic degradation |
+- **Track 1: Bicubic Degradation**  
+  The aim of this track is to obtain super-resolved 3D content under bicubic degradation (Matlab `imresize` function in bicubic mode).
+
+- **Track 2: Realistic Degradation**  
+  The aim of this track is to obtain super-resolved 3D content under realistic degradation.
 
 ---
 
