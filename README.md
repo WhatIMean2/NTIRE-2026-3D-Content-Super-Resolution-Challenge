@@ -66,7 +66,9 @@ The objective of this challenge is to reconstruct high-resolution (HR) 3D conten
   Given multi-view images of a scene, a realistic degradation model consisting of random blur, downsampling, noise, and compression is adopted to synthesize LR images.
 
 For quantitative evaluation, we select M camera poses for each test 3D content to render M images and corresponding depth maps. Then, PSNR is used to evaluate the visual quality, while EPE is employed to assess geometry accuracy. The final score for ranking is calculated as:
-<img src="https://github.com/user-attachments/assets/8ae7da97-a497-44af-b98b-40dc9f6c1e79" width="780" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8ae7da97-a497-44af-b98b-40dc9f6c1e79" width="390" />
+</div>
 
 ---
 
