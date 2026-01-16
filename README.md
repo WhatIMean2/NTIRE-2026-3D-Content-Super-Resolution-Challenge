@@ -57,11 +57,11 @@ To rank the submitted models, a test set consisting of two 3D scenes is provided
 
 The objective of this challenge is to reconstruct high-resolution (HR) 3D contents from their low-resolution (LR) counterparts. During the development and testing phase, challenge participants will submit the super-resolved results. Example codes to calculate evaluation metrics can be found [here](https://drive.google.com/file/d/1cYcP898xBpNWR-bGKKyFECymZkieN11a/view?usp=drive_link).
 
-- Track 1: Bicubic Degradation  
-  Given multi-view images of a scene, bicubic degradation (Matlab `imresize` function in bicubic mode) is used to generate LR images.
-
-- Track 2: Realistic Degradation  
-  Given multi-view images of a scene, a realistic degradation model consisting of random blur, downsampling, noise, and compression is adopted to synthesize LR images.
+  **- Track 1: Bicubic Degradation**
+    Given multi-view images of a scene, bicubic degradation (Matlab `imresize` function in bicubic mode) is used to generate LR images.
+  
+  **- Track 2: Realistic Degradation**
+    Given multi-view images of a scene, a realistic degradation model consisting of random blur, downsampling, noise, and compression is adopted to synthesize LR images.
 
 For quantitative evaluation, we select M camera poses for each test 3D content to render M images and corresponding depth maps. Then, PSNR is used to evaluate the visual quality, while EPE is employed to assess geometry accuracy. The final score for ranking is calculated as:
 <div align="center">
@@ -79,20 +79,23 @@ When submitting the results, create a ZIP archive containing all the resulting i
 
 After the test phase, the participants will 1) fill in an [online form](https://www.jianguoyun.com/p/Dfe7flkQleb6DRjY1ZkGIAA) and 2) submit a zip file (containing fact sheet, source code, and final results, an example of fact sheet can be found [here](https://www.jianguoyun.com/p/DbxH8hgQleb6DRi_6pgGIAA) to the official submission account (ntire.3dsr@outlook.com) by email. The final submission should be made by the following rules:
 
-  (1) The submitted results must be from the same method that generated the last submission to Codabench. Consistency will be checked; otherwise, the submission is invalid.  
+  - The submitted results must be from the same method that generated the last submission to Codabench. Consistency will be checked; otherwise, the submission is invalid.  
   
-  (2) Both testing source code (or executable) and training code must be submitted. Reproducibility is required.  
+  - Both testing source code (or executable) and training code must be submitted. Reproducibility is required.  
   
-  (3) Fact sheet describing the method details should be submitted together. The factsheet format is provided with data. Participants must submit a compiled PDF file and the TeX source. Figures and image sources should be enclosed.  
+  - Fact sheet describing the method details should be submitted together. The factsheet format is provided with data. Participants must submit a compiled PDF file and the TeX source. Figures and image sources should be enclosed.  
 
 Each participating team in the final testing phase should use the provided factsheet template to describe their solution(s).
 
 **Email submission format:**  
 Please use the following format to submit your final results, fact sheet, code, and model (with trained parameters). We will run the test code to reproduce the results. The code and the model will be posted on the NTIRE 2026 website.
 
-To: ntire.3dsr@outlook.com
+To: ntire.3dsr@outlook.com;
+
 CC: your_team_members
+
 Title: [NTIRE 2026 3D Content Super-Resolution Challenge (Track *)] - [Team_name]
+
 body should include:
 
   1. The challenge name (including track id)
