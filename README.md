@@ -1,9 +1,8 @@
 # NTIRE-2026-3D-Content-Super-Resolution-Challenge
 ---
-
 **The 3D Content Super-Resolution (SR) challenge is held as a part of the NTIRE workshop in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts.**
----
 
+---
 ## Introduction
 
 Beyond traditional images and videos, 3D content has gained immense popularity to provide both appearance and geometry information of the scene. Recent years have witnessed an exponential surge of 3D contents due to advances in 3D generation and reconstruction. Nevertheless, current 3D generation models still suffer relatively low quality. For 3D reconstruction, due to diverse constraints in the real world, the observed multi-view images are usually of low resolution, which ultimately degrades the quality of reconstructed 3D content. In applications like AR/VR, increasing the resolution of these 3D contents is highly demanded to provide immersive experience and help to parse the real world.
@@ -11,8 +10,8 @@ Beyond traditional images and videos, 3D content has gained immense popularity t
 Recently, remarkable progress has been achieved in image super-resolution (SR) to improve the visual quality of images. To enhance the quality of a 3D content, a straightforward approach is to employ an off-the-shelf image SR model to super-resolve the rendered images. However, this approach ignores the tightly coupled relationship between geometry and appearance information, resulting in multi-view inconsistency and flicker artifacts.
 
 In this challenge, we aim at establishing a benchmark for 3D content SR. We aspire to highlight the specific challenges and research problems faced by 3D content SR. We hope that this challenge could inspire the community to explore the cross area of low-level vision and 3D vision, and ultimately drive technological advancement in emerging applications such as AR/VR.
----
 
+---
 ## Challenge Description
 
 The 8th edition of NTIRE: New Trends in Image Restoration and Enhancement workshop will be held in June 2026 in conjunction with CVPR 2026.
@@ -28,7 +27,6 @@ This challenge has two tracks:
   The aim of this track is to obtain super-resolved 3D content under realistic degradation.
 
 ---
-
 ## Datasets
 
 ### Track 1: Bicubic Degradation
