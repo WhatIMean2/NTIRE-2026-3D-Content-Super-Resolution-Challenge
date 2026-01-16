@@ -21,10 +21,10 @@ The objective of this challenge is to reconstruct high-resolution (HR) 3D conten
 
 This challenge has two tracks:
 
-- Track 1: Bicubic Degradation  
+**- Track 1: Bicubic Degradation**   
   The aim of this track is to obtain super-resolved 3D content under bicubic degradation (Matlab `imresize` function in bicubic mode).
 
-- Track 2: Realistic Degradation  
+**- Track 2: Realistic Degradation**    
   The aim of this track is to obtain super-resolved 3D content under realistic degradation.
 
 ---
@@ -33,24 +33,24 @@ This challenge has two tracks:
 
 ### Track 1: Bicubic Degradation
 
-(1) **Training Set**  
+**(1) Training Set** 
 This challenge does not provide a training set and encourages the participants to employ diverse external datasets, including but not limited to image SR datasets, depth map SR datasets, multi-view datasets, and 3D reconstruction datasets, to improve the quality of a 3D content.
 
-(2) **Validation Set**  
+**(2) Validation Set** 
 The validation set consists of LR 3D contents and HR images/depth maps with their corresponding camera poses. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images/depth maps with the HR images/depth maps. The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
 
-(3) **Test Set**  
+**(3) Test Set**  
 To rank the submitted models, a test set consisting of two 3D scenes is provided. Unlike the validation sets, only LR 3D contents and a set of camera poses will be released for the test set. The participants must apply their models to the released LR 3D contents and submit their super-resolved images/depth maps at given camera poses to the server.
 
 ### Track 2: Realistic Degradation
 
-(1) **Training Set**  
+**(1) Training Set**  
 This challenge does not provide a training set and encourages the participants to employ diverse external datasets, including but not limited to image SR datasets, depth map SR datasets, multi-view datasets, and 3D reconstruction datasets, to improve the quality of a 3D content.
 
-(2) **Validation Set**  
+**(2) Validation Set**  
 The validation set consists of LR 3D contents and HR images/depth maps with their corresponding camera poses. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images/depth maps with the HR images/depth maps. The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
 
-(3) **Test Set**  
+**(3) Test Set**  
 To rank the submitted models, a test set consisting of two 3D scenes is provided. Unlike the validation sets, only LR 3D contents and a set of camera poses will be released for the test set. The participants must apply their models to the released LR 3D contents and submit their super-resolved images/depth maps at given camera poses to the server.
 
 ---
@@ -66,8 +66,7 @@ The objective of this challenge is to reconstruct high-resolution (HR) 3D conten
   Given multi-view images of a scene, a realistic degradation model consisting of random blur, downsampling, noise, and compression is adopted to synthesize LR images.
 
 For quantitative evaluation, we select M camera poses for each test 3D content to render M images and corresponding depth maps. Then, PSNR is used to evaluate the visual quality, while EPE is employed to assess geometry accuracy. The final score for ranking is calculated as:
-<img width="2343" height="660" alt="image" src="https://github.com/user-attachments/assets/8ae7da97-a497-44af-b98b-40dc9f6c1e79" />
-
+<img src="https://github.com/user-attachments/assets/8ae7da97-a497-44af-b98b-40dc9f6c1e79" width="780" />
 
 ---
 
