@@ -2,7 +2,6 @@
 ---
 
 **The 3D Content Super-Resolution (SR) challenge is held as a part of the NTIRE workshop in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts.**
-
 ---
 
 ## Introduction
@@ -12,7 +11,6 @@ Beyond traditional images and videos, 3D content has gained immense popularity t
 Recently, remarkable progress has been achieved in image super-resolution (SR) to improve the visual quality of images. To enhance the quality of a 3D content, a straightforward approach is to employ an off-the-shelf image SR model to super-resolve the rendered images. However, this approach ignores the tightly coupled relationship between geometry and appearance information, resulting in multi-view inconsistency and flicker artifacts.
 
 In this challenge, we aim at establishing a benchmark for 3D content SR. We aspire to highlight the specific challenges and research problems faced by 3D content SR. We hope that this challenge could inspire the community to explore the cross area of low-level vision and 3D vision, and ultimately drive technological advancement in emerging applications such as AR/VR.
-
 ---
 
 ## Challenge Description
@@ -155,3 +153,5 @@ The terms and conditions of this challenge can be viewed [here](https://www.coda
 ## Official Repository
 
 NTIRE 2026: 3D Content Super-Resolution Challenge
+
+---
