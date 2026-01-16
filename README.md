@@ -18,11 +18,11 @@ The objective of this challenge is to reconstruct high-resolution (HR) 3D conten
 
 This challenge has two tracks:
 
-**- [Track 1: Bicubic Degradation](https://www.codabench.org/competitions/12695)**   
-  The aim of this track is to obtain super-resolved 3D content under bicubic degradation (Matlab `imresize` function in bicubic mode).
-
-**- [Track 2: Realistic Degradation](https://www.codabench.org/competitions/12699)**    
-  The aim of this track is to obtain super-resolved 3D content under realistic degradation.
+  - **[Track 1: Bicubic Degradation](https://www.codabench.org/competitions/12695)**   
+    The aim of this track is to obtain super-resolved 3D content under bicubic degradation (Matlab `imresize` function in bicubic mode).
+  
+  - **[Track 2: Realistic Degradation](https://www.codabench.org/competitions/12699)**    
+    The aim of this track is to obtain super-resolved 3D content under realistic degradation.
 
 ## Datasets
 
@@ -51,11 +51,10 @@ To rank the submitted models, a test set consisting of two 3D scenes is provided
 ## Evaluation
 
 The objective of this challenge is to reconstruct high-resolution (HR) 3D contents from their low-resolution (LR) counterparts. During the development and testing phase, challenge participants will submit the super-resolved results. Example codes to calculate evaluation metrics can be found [here](https://drive.google.com/file/d/1cYcP898xBpNWR-bGKKyFECymZkieN11a/view?usp=drive_link).
-
-  **- Track 1: Bicubic Degradation**
+  - **Track 1: Bicubic Degradation**
     Given multi-view images of a scene, bicubic degradation (Matlab `imresize` function in bicubic mode) is used to generate LR images.
   
-  **- Track 2: Realistic Degradation**
+  - **Track 2: Realistic Degradation**
     Given multi-view images of a scene, a realistic degradation model consisting of random blur, downsampling, noise, and compression is adopted to synthesize LR images.
 
 For quantitative evaluation, we select M camera poses for each test 3D content to render M images and corresponding depth maps. Then, PSNR is used to evaluate the visual quality, while EPE is employed to assess geometry accuracy. The final score for ranking is calculated as:
@@ -84,8 +83,8 @@ Each participating team in the final testing phase should use the provided facts
 **Email submission format:**  
 Please use the following format to submit your final results, fact sheet, code, and model (with trained parameters). We will run the test code to reproduce the results. The code and the model will be posted on the NTIRE 2026 website.
 
-To: ntire.3dsr@outlook.com;
-CC: your_team_members
+To: ntire.3dsr@outlook.com;  
+CC: your_team_members  
 Title: [NTIRE 2026 3D Content Super-Resolution Challenge (Track *)] - [Team_name]  
 body should include:
 
