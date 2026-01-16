@@ -1,4 +1,6 @@
 # NTIRE-2026-3D-Content-Super-Resolution-Challenge
+---
+
 **The 3D Content Super-Resolution (SR) challenge is held as a part of the NTIRE workshop in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts.**
 
 ---
