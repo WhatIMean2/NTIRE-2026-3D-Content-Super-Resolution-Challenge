@@ -1,0 +1,1 @@
+# NTIRE-2026-3D-Content-Super-Resolution-Challenge
