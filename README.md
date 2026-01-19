@@ -3,7 +3,7 @@
   <img src="https://github.com/WhatIMean2/NTIRE-2026-3D-Content-Super-Resolution-Challenge/blob/main/Fig/logo.jpg?raw=true" width="600" />
 </div>
 
-**The 3D Content Super-Resolution (SR) challenge is held as a part of the NTIRE workshop in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts.**
+**The 3D Content Super-Resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2026/) in conjunction with CVPR 2026. The goal of this challenge is to develop methods to recover high-resolution (HR) 3D contents from low-resolution (LR) counterparts.**
 
 ## Introduction
 
