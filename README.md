@@ -122,7 +122,7 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 ## Organizers
 
 - Longguang Wang (wanglongguang15@nudt.edu.cn)  
-- Yulan Guo (yulan.guo@nudt.edu.cn)  
+- Yulan Guo (guoyulan@sysu.edu.cn)  
 - Yingqian Wang (wangyingqian16@nudt.edu.cn)  
 - Juncheng Li (cvjunchengli@gmail.com)  
 - Sida Peng (pengsida@zju.edu.cn)  
